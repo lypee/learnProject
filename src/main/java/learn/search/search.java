@@ -49,6 +49,7 @@ class mergeSort{
             int middle = (low + high) /2 ;
             mergeSort(array , low , middle);
             mergeSort(array,  middle + 1 , high);
+            System.out.print("test commit");
             merge(array , low , middle , high);
         }
     }
