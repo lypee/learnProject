@@ -48,7 +48,7 @@ class mergeSort{
         if(low < high){
             int middle = (low + high) /2 ;
             mergeSort(array , low , middle);
-            mergeSort(array, middle + 1 , high);
+            mergeSort(array,  middle + 1 , high);
             merge(array , low , middle , high);
         }
     }
