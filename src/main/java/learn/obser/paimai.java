@@ -1,4 +1,6 @@
 package learn.obser;
 
-public class paimai {
+public interface paimai {
+    public void changeMoney(int newMoney) ;
+    public void add(maijia maijia) ;
 }

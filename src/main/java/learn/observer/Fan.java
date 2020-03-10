@@ -1,4 +1,5 @@
 package learn.observer;
-
-public class Fan {
+//抽象观察者
+public interface Fan {
+    public void update(String message) ;
 }

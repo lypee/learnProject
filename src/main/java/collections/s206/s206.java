@@ -45,3 +45,23 @@ class Solution2{
         return pre ;
     }
 }
+class Solution3{
+    public ListNode reverseList(ListNode head){
+        if(head == null){
+            return null ;
+        }
+        ListNode cur = head ;
+        ListNode pre = null ;
+        while(cur.next != null){
+            ListNode tmp = cur.next ;
+            cur.next = pre ;
+            pre = cur ;
+            cur = tmp ;
+        }
+        if(cur != null){
+            cur.next = pre ;
+            return cur ;
+        }
+        return pre ;
+    }
+}

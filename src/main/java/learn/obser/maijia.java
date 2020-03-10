@@ -1,4 +1,5 @@
 package learn.obser;
 
-public class maijia {
+public interface maijia {
+    public void update(int newMoney) ;
 }

@@ -1,26 +1,33 @@
 package learn.search;
 
-public class search {
-    public static void main(){
+import java.util.Arrays;
 
+public class search {
+    public static void main(String[] args){
+        int[] nums = new int[]{3,123 ,12314,214,12,31,24,123,124,41231,23,12} ;
+        Arrays.sort(nums);
+        int index = binarySearch(nums , 214) ;
+        System.out.print(index);
+    }
+    public static int binarySearch(int[] nums , int target) {
+        int low = 0 ;
+        int high = nums.length - 1 ;
+        while(low <= high){
+            int mid = (low + high) >>> 1 ;
+            if(nums[mid] > target){
+                high = mid - 1 ;
+            }else if(nums[mid]  < target){
+                low = mid + 1 ;
+            }else {
+                return mid ;
+            }
+        }
+        return -1 ;
     }
 }
 class binarySearch{
    public int search(int[] nums , int x){
-       int low = 0 ;
-       int high = nums.length - 1 ;
-       int mid ;
-       while(low <= high){
-           mid = (low + high) / 2 ;
-           if(nums[mid] < x){
-               low = mid+ 1 ;
-           }else if (nums[mid] > x){
-               high = mid -1 ;
-           }else {
-               return mid ;
-           }
-       }
-       return -1 ;
+       return 0 ;
    }
    public int search2(int[] nums , int x){
        int low = 0 ;
@@ -33,6 +40,21 @@ class binarySearch{
            }else if(nums[mid] > x){
                high = mid - 1 ;
            }else {
+               return mid ;
+           }
+       }
+       return -1 ;
+   }
+   public int binartSearch(int[] nums  , int target){
+       int low = 0 ;
+       int high = nums.length - 1 ;
+       while(low < high){
+           int mid = low + (high + low) / 2 ;
+           if(nums[mid] > target){
+                high = mid - 1  ;
+           }else if (nums[mid] < target){
+               low = mid + 1 ;
+           }else{
                return mid ;
            }
        }
