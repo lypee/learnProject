@@ -140,8 +140,8 @@ class print{
         Stack<TreeNode> stack = new Stack<>() ;
         stack.push(root) ;
         while(!stack.isEmpty() || root != null){
-            if(root.left  != null){
-                stack.push(root.left);
+            if(root.left != null){
+                stack.push(root.left) ;
             }else{
                 root = stack.pop() ;
                 System.out.println(root.val);
@@ -150,9 +150,27 @@ class print{
                 }
             }
         }
+
     }
 
-
+    public void afterOrder2(TreeNode root){
+        if(root == null){
+            return ;
+        }
+        Stack<TreeNode> s1 = new Stack<>();
+        Stack<TreeNode> s2 = new Stack<>() ;
+        s1.push(root);
+        while(!s1.isEmpty()){
+            TreeNode node = s1.pop() ;
+            s2.push(node);
+            if(node.right != null){
+                s1.push(node.right);
+            }
+            if(node.left != null){
+                s1.push(node.left) ;
+            }
+        }
+    }
     public void afterOrder(TreeNode root){
         if(root == null){
             return ;
@@ -332,28 +350,25 @@ class print{
         }
         return ans ;
     }
-    public List<List<Integer>> levelOrder_5(TreeNode root){
-        if(root == null){
-            return null ;
-        }
+    public List<List<Integer>> levelOrder_5(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>() ;
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>() ;
         queue.offer(root) ;
         while(!queue.isEmpty()){
-            List<Integer> level = new ArrayList<>() ;
             int size = queue.size() ;
-            for(int i = 0 ; i < size ; i++){
+            ArrayList<Integer> list = new ArrayList<>() ;
+            for(int i = 0 ; i <size ; i++){
                 TreeNode node = queue.poll() ;
-                level.add(node.val) ;
+                list.add(node.val) ;
+                if(node.right != null){
+                    queue.offer(node.right) ;
+                }
                 if(node.left != null){
                     queue.offer(node.left);
                 }
-                if(node.right != null){
-                    queue.offer(node.right );
-                }
             }
-            ans.add(level);
+            ans.add(list) ;
         }
         return ans ;
     }
-}
+    }
