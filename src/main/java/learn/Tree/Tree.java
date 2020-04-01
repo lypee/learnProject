@@ -114,7 +114,6 @@ class print{
             }
         }
     }
-
     public void midOrder(TreeNode root){
         if(root == null){
             return ;
@@ -133,7 +132,7 @@ class print{
             }
         }
     }
-    public void midOrder_2(TreeNode root){
+    public void midOrder2(TreeNode root){
         if(root == null){
             return  ;
         }
@@ -141,7 +140,7 @@ class print{
         stack.push(root) ;
         while(!stack.isEmpty() || root != null){
             if(root.left != null){
-                stack.push(root.left) ;
+                stack.push(root.left);
             }else{
                 root = stack.pop() ;
                 System.out.println(root.val);
@@ -150,9 +149,7 @@ class print{
                 }
             }
         }
-
     }
-
     public void afterOrder2(TreeNode root){
         if(root == null){
             return ;
@@ -171,6 +168,7 @@ class print{
             }
         }
     }
+
     public void afterOrder(TreeNode root){
         if(root == null){
             return ;
@@ -178,19 +176,19 @@ class print{
         Stack<TreeNode> s1 = new Stack<>() ;
         Stack<TreeNode> s2 = new Stack<>() ;
         s1.push(root);
-        while(!s1.isEmpty()){
-            root = s1.pop() ;
-            s2.push(root);
-            if(root.right != null){
-                s1.push(root.right);
-            }
-            if(root.left != null){
-                s1.push(root.left);
-            }
-        }
-        while(!s2.isEmpty()){
-            System.out.println(s2.pop().val);
-        }
+      while(!s1.isEmpty()){
+          TreeNode node = s1.pop() ;
+          s2.push(node) ;
+          if(node.right != null){
+              s1.push(node.right) ;
+          }
+          if(node.left != null){
+              s1.push(node.left);
+          }
+      }
+      while(!s1.isEmpty()){
+          System.out.println(s1.pop().val);
+      }
     }
     public void afterOrder_2(TreeNode root){
         if(root == null){
@@ -372,3 +370,51 @@ class print{
         return ans ;
     }
     }
+class levelOrder{
+   public static  ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+    public void levelOrder(TreeNode root){
+        if(root == null ){
+            return ;
+        }
+        Queue<TreeNode> queue = new LinkedList<>() ;
+        queue.offer(root) ;
+        while(!queue.isEmpty()){
+            int size = queue.size() ;
+            ArrayList<Integer> list = new ArrayList<>() ;
+            for(int i = 0 ;i  < size ; i++){
+                TreeNode node = queue.poll() ;
+                list.add(node.val) ;
+                if(node.right != null){
+                    queue.offer(node.right) ;
+                }
+                if(node.left != null){
+                    queue.offer(node.left) ;
+                }
+            }
+            ans.add(list) ;
+        }
+      //  return ans ;
+    }
+    public void levelOrder2(TreeNode root){
+        if(root == null){
+            return  ;
+        }
+        Queue<TreeNode> queue = new LinkedList<>() ;
+        queue.offer(root) ;
+        while(!queue.isEmpty()){
+            int size = queue.size() ;
+            ArrayList<Integer> list = new ArrayList<>() ;
+            for(int i = 0 ;i  <size ; i++){
+                TreeNode node = queue.poll() ;
+                list.add(node.val) ;
+                if(node.left != null){
+                    queue.offer(node.left) ;
+                }
+                if(node.right != null){
+                    queue.offer(node.right);
+                }
+            }
+            ans.add(list);
+        }
+    }
+}
