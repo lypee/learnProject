@@ -1,58 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T08:30:21.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="E7jKApr81o6-yhvacaj4" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T03:43:27.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="Z6Vc-alYCRy_R_A1c8KA" version="14.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="H7_40uMS-2cokdlfVP3S-10" value="// 更新信息&#xa;update_info" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="H7_40uMS-2cokdlfVP3S-10" value="// 更新信息&#xa;update_info" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="290" y="10" width="160" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-11" value="id int &#xa;// 关联版本信息&#xa;version_id int &#xa;version_name string &#xa;&#xa;describtion string &#xa;// 链接功能ID&#xa;link_function_id int &#xa;link_function_name string &#xa;// 创建者&#xa;creator_name string &#xa;status int &#xa;page_views int &#xa;create_time int64&#xa;release_time int64&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-10">
+        <mxCell id="H7_40uMS-2cokdlfVP3S-11" value="id int &#xa;// 关联版本信息&#xa;version_id int &#xa;version_name string &#xa;&#xa;describtion string &#xa;// 链接功能ID&#xa;link_function_id int &#xa;link_function_name string &#xa;// 创建者&#xa;creator_name string &#xa;status int &#xa;page_views int &#xa;create_time int64&#xa;release_time int64&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="H7_40uMS-2cokdlfVP3S-10" vertex="1">
           <mxGeometry y="40" width="160" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-10">
+        <mxCell id="H7_40uMS-2cokdlfVP3S-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="H7_40uMS-2cokdlfVP3S-10" vertex="1">
           <mxGeometry y="270" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-13" value="- AddUpdateInfo() &#xa;- GetUpdateInfoList()&#xa;- GetUpdateInfo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-10">
+        <mxCell id="H7_40uMS-2cokdlfVP3S-13" value="- AddUpdateInfo() &#xa;- GetUpdateInfoList()&#xa;- GetUpdateInfo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="H7_40uMS-2cokdlfVP3S-10" vertex="1">
           <mxGeometry y="278" width="160" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-14" value="// 功能区&#xa;feature_zone" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="10" width="160" height="490" as="geometry" />
+        <mxCell id="H7_40uMS-2cokdlfVP3S-14" value="// 功能区&#xa;feature_zone" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="10" width="160" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-15" value="id int &#xa;feature_name string &#xa;pic_name string&#xa;// 一级功能区&#xa;f_level_feature_id int&#xa;f_level_feature_name string&#xa;// 二级功能区&#xa;second_level_feature_id []int&#xa;second_level_feature_name []string&#xa;// 创建人姓名&#xa;creator_name string&#xa;// 发布时间&#xa;release_time int64&#xa;// 状态&#xa;status int&#xa;// 功能内容&#xa;content string &#xa;// 参与人员 , 包括产品团队 ，&#xa;// 开发团队，运营人员 ，&#xa;// 测试团队 ，业务方 ，&#xa;// UI/UE/动效&#xa; &#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-14">
-          <mxGeometry y="50" width="160" height="300" as="geometry" />
+        <mxCell id="H7_40uMS-2cokdlfVP3S-15" value="id int&#xa;// 功能区ID &#xa;feature_id string&#xa; &#xa;pic_url string&#xa;// 一级功能区&#xa;f_level_feature_id []int&#xa;f_level_feature_name []string&#xa;// 二级功能区&#xa;second_level_feature_id []int&#xa;second_level_feature_name []string&#xa;// 创建人姓名&#xa;creator_name string&#xa;// 发布时间&#xa;release_time int64&#xa;// 状态 是否已发布&#xa;status int&#xa;&#xa;// 功能内容&#xa;content string &#xa;// 参与人员 , 包括产品团队 ，&#xa;// 开发团队，运营人员 ，&#xa;// 测试团队 ，业务方 ，&#xa;// UI/UE/动效&#xa; &#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="H7_40uMS-2cokdlfVP3S-14" vertex="1">
+          <mxGeometry y="50" width="160" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-14">
-          <mxGeometry y="350" width="160" height="8" as="geometry" />
+        <mxCell id="H7_40uMS-2cokdlfVP3S-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="H7_40uMS-2cokdlfVP3S-14" vertex="1">
+          <mxGeometry y="450" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-17" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-14">
-          <mxGeometry y="358" width="160" height="132" as="geometry" />
+        <mxCell id="H7_40uMS-2cokdlfVP3S-17" value="- GetBy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="H7_40uMS-2cokdlfVP3S-14" vertex="1">
+          <mxGeometry y="458" width="160" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-19" value="// 链接功能ID&#xa;link_function " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="H7_40uMS-2cokdlfVP3S-19" value="// 链接功能ID&#xa;link_function " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="620" y="-10" width="180" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-20" value="id int &#xa;link_function_name string &#xa;f_level_funciton_zone string&#xa;s_level_function_zone string &#xa;release_status int &#xa;release_time int64&#xa;create_time int64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-19">
+        <mxCell id="H7_40uMS-2cokdlfVP3S-20" value="id int &#xa;link_function_name string &#xa;f_level_funciton_zone string&#xa;s_level_function_zone string &#xa;release_status int &#xa;release_time int64&#xa;create_time int64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="H7_40uMS-2cokdlfVP3S-19" vertex="1">
           <mxGeometry y="40" width="180" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-19">
+        <mxCell id="H7_40uMS-2cokdlfVP3S-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="H7_40uMS-2cokdlfVP3S-19" vertex="1">
           <mxGeometry y="144" width="180" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-22" value="- GetList()&#xa;- Get()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-19">
+        <mxCell id="H7_40uMS-2cokdlfVP3S-22" value="- GetList()&#xa;- Get()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="H7_40uMS-2cokdlfVP3S-19" vertex="1">
           <mxGeometry y="152" width="180" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-23" value="// 版本号&#xa;version " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="650" y="340" width="170" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-24" value="id int &#xa;version string " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-23">
-          <mxGeometry y="40" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-23">
-          <mxGeometry y="130" width="170" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-26" value="-GetList()&#xa;- Get()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="H7_40uMS-2cokdlfVP3S-23">
-          <mxGeometry y="138" width="170" height="92" as="geometry" />
-        </mxCell>
-        <mxCell id="H7_40uMS-2cokdlfVP3S-27" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="H7_40uMS-2cokdlfVP3S-27" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="430" as="sourcePoint" />
             <mxPoint x="460" y="380" as="targetPoint" />
