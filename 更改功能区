@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T09:57:34.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="HWez21sEI_AUrWs5Ifb2" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T10:31:34.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="q8O7EH_FAwjtsbfQbu0L" version="14.4.3" type="github">
   <diagram id="i-345QXcn1kvnLT-6tNF" name="第 1 页">
     <mxGraphModel dx="1426" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="T1QNs6b_ThvAnavTbRqL-3" value="编辑功能区" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T1QNs6b_ThvAnavTbRqL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T1QNs6b_ThvAnavTbRqL-4" target="T1QNs6b_ThvAnavTbRqL-6">
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T1QNs6b_ThvAnavTbRqL-4" target="T1QNs6b_ThvAnavTbRqL-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T1QNs6b_ThvAnavTbRqL-4" value="可更改一级功能区图片 ，增加或删除二级功能区" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -20,10 +20,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T1QNs6b_ThvAnavTbRqL-6" value="保存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T1QNs6b_ThvAnavTbRqL-8" value="MySQL" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="530" width="100" height="80" as="geometry" />
+          <mxGeometry x="150" y="740" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T1QNs6b_ThvAnavTbRqL-11" target="T1QNs6b_ThvAnavTbRqL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T1QNs6b_ThvAnavTbRqL-11" target="T1QNs6b_ThvAnavTbRqL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-11" value="是否删除了二级功能区" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T1QNs6b_ThvAnavTbRqL-13" target="T1QNs6b_ThvAnavTbRqL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T1QNs6b_ThvAnavTbRqL-13" target="T1QNs6b_ThvAnavTbRqL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-13" value="弹框“该功能区已被绑定 ，您确认删除此功能区 ？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-19" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-22" value="是&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="510" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-23" value="返回列表页" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1QNs6b_ThvAnavTbRqL-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="510" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
