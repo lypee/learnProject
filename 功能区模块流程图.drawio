@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T08:48:23.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.3" etag="5vRbixZpKZOi8HsYN6wJ" type="github"><diagram id="VzSBwnLCHHDuz5QDuF97">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-03T09:54:30.329Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="a7ubiIZhKQuntCRCX1ya" version="14.4.3" type="github">
+  <diagram id="VzSBwnLCHHDuz5QDuF97" name="第 1 页">
+    <mxGraphModel dx="2505" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H81D-0IT-e_9pn4Vorrv-1" target="H81D-0IT-e_9pn4Vorrv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-1" value="创建功能内容" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-393" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H81D-0IT-e_9pn4Vorrv-2" target="H81D-0IT-e_9pn4Vorrv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-2" value="添加一级功能区（字符长度限制10 ，仅可创建一个）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-403" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H81D-0IT-e_9pn4Vorrv-4" target="H81D-0IT-e_9pn4Vorrv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-4" value="添加二级功能区（字符长度限制10 ，可创建多个）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-396.5" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H81D-0IT-e_9pn4Vorrv-6" target="H81D-0IT-e_9pn4Vorrv-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-6" value="上传一级功能区图片（可选）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-396.5" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H81D-0IT-e_9pn4Vorrv-8" target="H81D-0IT-e_9pn4Vorrv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-8" value="保存并发布" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-396.5" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-10" value="MySQL" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="640" width="153" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H81D-0IT-e_9pn4Vorrv-13" value="修改功能区" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
