@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T10:50:02.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="YHsWcGhxhNQ_bSulYjxA" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T11:26:47.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="T0xMV7XYI-Y4-daon3yV" version="14.4.3" type="github">
   <diagram id="cyPZJ2N3eXy3DYssziNm" name="第 1 页">
     <mxGraphModel dx="1426" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
         <mxCell id="iF_4D1fb8v5K7RcwCtRx-4" value="点击保存 ，列表页新增一条记录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iF_4D1fb8v5K7RcwCtRx-6" value="点击发布 ，列表页新增一条版本/通知记录 ，状态变为已发布" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-6" value="点击发布 ，立即发布该更新公告 ，列表页新增一条版本/通知记录 ，状态变为已发布" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iF_4D1fb8v5K7RcwCtRx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iF_4D1fb8v5K7RcwCtRx-8" target="iF_4D1fb8v5K7RcwCtRx-9">
