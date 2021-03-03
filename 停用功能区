@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T09:58:04.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.3" etag="GPhRKe8oFP2VfijJmish" type="github"><diagram id="vY4eSadaDdGic-aQG4TB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-03T10:08:02.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="c71382oXK-NFmIF6tmPr" version="14.4.3" type="github">
+  <diagram id="vY4eSadaDdGic-aQG4TB" name="第 1 页">
+    <mxGraphModel dx="2037" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dxewmHCfIsLirr1rPm4f-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dxewmHCfIsLirr1rPm4f-1" target="dxewmHCfIsLirr1rPm4f-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-1" value="停用功能区" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dxewmHCfIsLirr1rPm4f-2" target="dxewmHCfIsLirr1rPm4f-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="328" y="250" />
+              <mxPoint x="328" y="260" />
+              <mxPoint x="374" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dxewmHCfIsLirr1rPm4f-2" target="dxewmHCfIsLirr1rPm4f-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-2" value="该功能是否绑定&lt;br&gt;一/二级功能区" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="195" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-7" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="230" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-12" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="360" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dxewmHCfIsLirr1rPm4f-14" target="dxewmHCfIsLirr1rPm4f-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dxewmHCfIsLirr1rPm4f-14" target="dxewmHCfIsLirr1rPm4f-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-14" value="弹框“是否停用该功能区？”" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="220" width="126" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dxewmHCfIsLirr1rPm4f-15" target="dxewmHCfIsLirr1rPm4f-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-15" value="更改该功能区状态为停用" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-18" value="返回列表页" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="240" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dxewmHCfIsLirr1rPm4f-22" target="dxewmHCfIsLirr1rPm4f-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dxewmHCfIsLirr1rPm4f-22" target="dxewmHCfIsLirr1rPm4f-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-22" value="弹框“&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;该功能区已被功能绑定，您确认停用此功能区？”&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="440" width="135" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dxewmHCfIsLirr1rPm4f-26" target="dxewmHCfIsLirr1rPm4f-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-26" value="更改该功能关联的一/二级功能区为停用" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-28" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="600" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-30" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dxewmHCfIsLirr1rPm4f-32" value="MySQL" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="800" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
