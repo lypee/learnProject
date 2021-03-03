@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T10:40:53.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.3" etag="3JkRx5wgHDnN5Ol9QSdM" type="github"><diagram id="cyPZJ2N3eXy3DYssziNm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-03T10:50:02.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="YHsWcGhxhNQ_bSulYjxA" version="14.4.3" type="github">
+  <diagram id="cyPZJ2N3eXy3DYssziNm" name="第 1 页">
+    <mxGraphModel dx="1426" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iF_4D1fb8v5K7RcwCtRx-1" target="iF_4D1fb8v5K7RcwCtRx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-1" value="新建版本更新通知&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iF_4D1fb8v5K7RcwCtRx-2" target="iF_4D1fb8v5K7RcwCtRx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iF_4D1fb8v5K7RcwCtRx-2" target="iF_4D1fb8v5K7RcwCtRx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-2" value="下拉选择通知类型是按照版本号还是消息通知&lt;br&gt;点击搜索图标进行功能内容搜索&lt;br&gt;填写版本描述" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iF_4D1fb8v5K7RcwCtRx-4" target="iF_4D1fb8v5K7RcwCtRx-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-4" value="点击保存 ，列表页新增一条记录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-6" value="点击发布 ，列表页新增一条版本/通知记录 ，状态变为已发布" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iF_4D1fb8v5K7RcwCtRx-8" target="iF_4D1fb8v5K7RcwCtRx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-8" value="停用版本通知更新" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iF_4D1fb8v5K7RcwCtRx-9" target="iF_4D1fb8v5K7RcwCtRx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-9" value="是否停用此版本" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iF_4D1fb8v5K7RcwCtRx-11" target="iF_4D1fb8v5K7RcwCtRx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-11" value="更改操作按钮 ，修改状态为已停用 ，灰度控制模块的版本号下拉列表中不显示此条版本信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="330" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-13" value="MySQL" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="535" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-15" value="MySQL" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="520" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iF_4D1fb8v5K7RcwCtRx-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iF_4D1fb8v5K7RcwCtRx-6" target="iF_4D1fb8v5K7RcwCtRx-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
